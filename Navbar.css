@@ -1,0 +1,38 @@
+/* common  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* star nav logo*/
+.nav{
+    background-color: rgb(109, 126, 163);
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.nav .logo{
+    /* background-color: #fff; */
+    width: 30%;
+}
+/* star nav  */
+.nav ul{
+    display: flex;
+    width: 70%;
+
+}
+.title {
+
+    color: red;
+    text-align: center;
+}
